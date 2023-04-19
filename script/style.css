@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+
+}
+
+.main-container{
+    border: 8px solid burlywood;
+    width:350px;
+    height: 100vh;
+    border-radius: 10px;    
+}
+
+#header{
+text-align: center;
+}
+
+.add-items{
+    margin: 0 20px;
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#list-container{
+    width: auto;
+    margin: 0 10px;
+   
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    width: auto;
+    gap: 20px;
+    
+}
+#cardy{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    row-gap: 5px;
+    padding: 5px 5px;
+}
+
+.material-icons{
+    background-color: antiquewhite;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
